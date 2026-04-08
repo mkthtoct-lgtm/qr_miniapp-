@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTO Group - Portal Apps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen py-10 px-4 bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-950 text-white">
 
+    <div class="max-w-4xl mx-auto mb-12 text-center">
+        <div class="flex justify-center mb-6">
+            <div class="relative p-2 bg-white rounded-2xl shadow-xl">
+                <img src="https://i.ibb.co/WpDbW2Lk/image-removebg-preview-1.png" alt="HTO Group Logo" class="h-16 w-auto object-contain">
+            </div>
+        </div>
+        
+        <div class="inline-block px-4 py-1.5 mb-4 text-xs font-bold tracking-widest uppercase bg-white/10 backdrop-blur-md rounded-full border border-white/20">
+            Hệ sinh thái HTO Group
+        </div>
+        <h1 class="text-4xl md:text-5xl font-black mb-4 drop-shadow-lg">
+            Chọn ứng dụng bạn muốn <span class="text-cyan-300">trải nghiệm</span>
+        </h1>
+        <p class="text-blue-100/80 font-medium">
+            Quét mã QR (nếu dùng máy tính) hoặc bấm nút để truy cập trực tiếp.
+        </p>
+    </div>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div class="glass-card relative flex flex-col items-center p-8 rounded-[2.5rem] transition-all duration-500 group hover:-translate-y-3 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)]">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 blur-3xl rounded-full"></div>
+            
+            <div class="w-24 h-24 mb-6 p-4 bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl shadow-inner ring-4 ring-blue-500/20 group-hover:scale-110 transition-transform duration-500">
+                <img src="https://i.ibb.co/nMBrgbBX/unname3.png" alt="Language Icon" class="w-full h-full object-contain">
+            </div>
+
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-black text-slate-800">Đánh Giá Ngoại Ngữ</h2>
+                <p class="text-blue-600 font-bold text-xs uppercase tracking-widest mt-1 mb-3">Tiếng Anh & các ngôn ngữ khác</p>
+                <p class="text-slate-500 text-sm leading-relaxed">Kiểm tra trình độ IELTS/HSK... trong 5 phút, nhận ngay lộ trình cá nhân hóa bằng AI.</p>
+            </div>
+
+            <div class="w-full mt-auto space-y-4">
+                <div class="hidden md:flex flex-col items-center py-4 border-2 border-dashed border-blue-100 rounded-2xl bg-blue-50/30">
+                    <div class="w-32 h-32 mb-2 bg-white p-1 rounded-lg shadow-md">
+                        <img src="https://i.ibb.co/xtMjX9Rn/ht-dai-duong-danh-gia-nang-luc-ngoai-ngu-02-04-2026.jpg" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-[10px] font-bold text-blue-400 uppercase tracking-tighter">Quét mã để mở</span>
+                </div>
+                <a href="https://zalo.me/s/3835451319920361568/?utm_source=zalo-qr" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-blue-600 text-white font-bold rounded-2xl shadow-lg shadow-blue-600/30 hover:bg-blue-700 transition-colors active:scale-95">
+                    <span>Mở ứng dụng</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="glass-card relative flex flex-col items-center p-8 rounded-[2.5rem] transition-all duration-500 group hover:-translate-y-3 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)]">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-orange-500/10 blur-3xl rounded-full"></div>
+            
+            <div class="w-24 h-24 mb-6 p-4 bg-gradient-to-br from-orange-50 to-orange-100 rounded-3xl shadow-inner ring-4 ring-orange-500/20 group-hover:scale-110 transition-transform duration-500 text-4xl">
+                <img src="https://i.ibb.co/nMBrgbBX/unname3.png" alt="Visa Icon" class="w-full h-full object-contain">
+            </div>
+
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-black text-slate-800">Đánh Giá Hồ Sơ Visa</h2>
+                <p class="text-orange-600 font-bold text-xs uppercase tracking-widest mt-1 mb-3">Du học & Định cư</p>
+                <p class="text-slate-500 text-sm leading-relaxed">Phân tích điểm mạnh/yếu của hồ sơ, dự đoán chính xác tỉ lệ đậu Visa của bạn.</p>
+            </div>
+
+            <div class="w-full mt-auto space-y-4">
+                <div class="hidden md:flex flex-col items-center py-4 border-2 border-dashed border-orange-100 rounded-2xl bg-orange-50/30">
+                    <div class="w-32 h-32 mb-2 bg-white p-1 rounded-lg shadow-md">
+                        <img src="https://i.ibb.co/Gr2bw9p/ht-ocean-group-danh-gia-visa-02-04-2026.jpg" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-[10px] font-bold text-orange-400 uppercase tracking-tighter">Quét mã để mở</span>
+                </div>
+                <a href="https://zalo.me/s/2589546209322795481/?utm_source=zalo-qr" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-orange-500 text-white font-bold rounded-2xl shadow-lg shadow-orange-500/30 hover:bg-orange-600 transition-colors active:scale-95">
+                    <span>Mở ứng dụng</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="glass-card relative flex flex-col items-center p-8 rounded-[2.5rem] transition-all duration-500 group hover:-translate-y-3 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)]">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 blur-3xl rounded-full"></div>
+            
+            <div class="w-24 h-24 mb-6 p-4 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-3xl shadow-inner ring-4 ring-indigo-500/20 group-hover:scale-110 transition-transform duration-500 text-4xl">
+                <img src="https://i.ibb.co/fG98Gd8F/sticker-hito-02-removebg-preview.png" alt="Holland Icon" class="w-full h-full object-contain">
+            </div>
+
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-black text-slate-800">Trắc Nghiệm Holland</h2>
+                <p class="text-indigo-600 font-bold text-xs uppercase tracking-widest mt-1 mb-3">Định hướng nghề nghiệp</p>
+                <p class="text-slate-500 text-sm leading-relaxed">Khám phá nhóm tính cách tiềm ẩn và tìm ra ngành nghề phù hợp nhất với bạn.</p>
+            </div>
+
+            <div class="w-full mt-auto space-y-4">
+                <div class="hidden md:flex flex-col items-center py-4 border-2 border-dashed border-indigo-100 rounded-2xl bg-indigo-50/30">
+                    <div class="w-32 h-32 mb-2 bg-white p-1 rounded-lg shadow-md">
+                        <img src="https://i.ibb.co/xtgZHD9f/ht-dai-duong-trac-nghiem-huong-nghiep-02-04-2026.jpg" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-[10px] font-bold text-indigo-400 uppercase tracking-tighter">Quét mã để mở</span>
+                </div>
+                <a href="https://zalo.me/s/2716798080300525916/?utm_source=zalo-qr" target="_blank" class="flex items-center justify-center gap-2 w-full py-4 bg-indigo-600 text-white font-bold rounded-2xl shadow-lg shadow-indigo-600/30 hover:bg-indigo-700 transition-colors active:scale-95">
+                    <span>Mở ứng dụng</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-20 text-center text-blue-200/60 text-sm font-medium">
+        © 2026 Bản quyền thuộc về HTO Group
+    </div>
+
+</body>
+</html>
